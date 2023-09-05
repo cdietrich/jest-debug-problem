@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "out",
+    "esModuleInterop": true,
+    "lib": ["DOM", "webworker", "ESNext"] 
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "out",
+    "node_modules"
+  ]
+}
